@@ -4,8 +4,7 @@ export default function Navbar() {
   return (
     <div className='header'>
    
-        <h1>Portfolio</h1>
-      
+        <h1>Wosafe</h1>
       <ul className='nav-menu'>
         <li>
             Home
