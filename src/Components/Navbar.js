@@ -34,7 +34,7 @@ export default function Navbar() {
         <Link to ="/contact">Contact</Link>
         </li>
         <li>
-        <Link to = "/signin">SigIn</Link>
+        <Link to = "/login">Login</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

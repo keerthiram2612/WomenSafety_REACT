@@ -6,7 +6,7 @@ import Admin from "./routes/Admin"
 import Contact from "./routes/Contact"
 import {Routes,Route}from"react-router-dom"
 import Navbar from './Components/Navbar';
-import SignIn from "./routes/SigIn"
+import SignUp from "./routes/SignUp"
 export default function App() {
   return (
     <>
@@ -16,7 +16,7 @@ export default function App() {
      <Route path = "/about" element = {<About/>}/>
      <Route path = "/admin" element = {<Admin/>}/>
      <Route path = "/contact" element = {<Contact/>}/>
-     <Route path = "/signin" element = {<SignIn/>}/>
+     <Route path = "/login" element = {<SignUp/>}/>
     </Routes>
     </>
   )

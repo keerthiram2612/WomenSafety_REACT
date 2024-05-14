@@ -45,7 +45,6 @@
         left: -100%;
         z-index: -3;
         transition: 0.3s;
-        background: transparent;
         filter: blur(1.2px);
     }
     .hamburger{
