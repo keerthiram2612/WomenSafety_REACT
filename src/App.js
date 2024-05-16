@@ -5,7 +5,6 @@ import About from "./routes/About"
 import Admin from "./routes/Admin"
 import Contact from "./routes/Contact"
 import {Routes,Route}from"react-router-dom"
-
 import SignUp from "./routes/SignUp"
 export default function App() {
   return (

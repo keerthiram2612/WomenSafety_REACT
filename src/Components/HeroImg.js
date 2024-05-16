@@ -1,10 +1,10 @@
 import React from 'react'
 import "./HomeContentstyle.css"
-
-export default function HomeContent() {
+export default function HeroImg() {
   return (
     <div className='home'>
-      <h1>Womensafety</h1>
-    </div> 
+      <h1>WomenSafety</h1>
+    </div>
   )
 }
+

@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import HomeContent from '../Components/HomeContent'
+import HeroImg from '../Components/HeroImg'
+
 export default function Home() {
   return (
     <div>
        <Navbar/>
-       <HomeContent/>
+       <HeroImg/>
     </div>
   )
 }
