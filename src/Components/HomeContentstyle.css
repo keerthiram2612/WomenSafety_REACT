@@ -19,5 +19,6 @@
     filter: blur(3.5px);
     margin-left: 110px;
     background-position: center top;
+    position: fixed;
 }
 
