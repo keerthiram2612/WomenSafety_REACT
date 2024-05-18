@@ -7,9 +7,9 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
-  background-color: pink;
+  background-color: black;
 }
 h1,h2,p,a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
