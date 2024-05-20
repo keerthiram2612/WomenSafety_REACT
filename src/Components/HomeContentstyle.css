@@ -22,3 +22,29 @@
     position: fixed;
 }
 
+button{
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.container {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    transform: translateX(-300px);
+  }
+.home-p{
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+.home-h1{
+    
+}
