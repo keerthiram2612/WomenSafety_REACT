@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <div className={color ? "header header-bg":"header"}>
         <Link to = "/">
-        <h1>Wosafe</h1>
+        <h1>Wo-safe</h1>
         </Link>
       <ul className={click?"nav-menu active":"nav-menu"}>
         <li>

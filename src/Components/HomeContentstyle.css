@@ -46,3 +46,7 @@ button{
     
 
 }
+.phone{
+    transform: translateX(-799px);
+    margin-top: 300px;
+}
