@@ -35,18 +35,43 @@ button{
 }
 
 .container{
-    width: 550px;
+    width: 600px;
     height: 250px;
     justify-content: center;
     text-align: center;
     align-items: center;
-    transform: translate(-110%);
+    transform: translate(-100%);
     margin-top: 90px;
     background-color: rgba(0, 0, 0, 0.3);
     
 
 }
 .phone{
-    transform: translateX(-799px);
-    margin-top: 300px;
+    transform: translateX(-60px);
+    margin-top: 30px;
+}
+.google{
+    transform: translateX(-60px);
+    margin-left: 60px;
+}
+
+@media(max-width:640px){
+    .container{
+        width: 600px;
+        height: 250px;
+        margin-left: 190px;
+        margin-top: 0px;
+    }
+
+    .link{
+        margin-left: -70px;
+    }
+    .phone{
+        transform: translateX(-20px);
+    }
+    .women-pic{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
