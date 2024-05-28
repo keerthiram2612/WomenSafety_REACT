@@ -33,38 +33,36 @@ button{
     justify-content: center;
     margin-top: 20px;
 }
-
 .container{
-    width: 600px;
-    height: 250px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    transform: translate(-100%);
-    margin-top: 90px;
-    background-color: rgba(0, 0, 0, 0.3);
-    
-
+    margin-left: 40px;
+    transform: translateX(-50%);
 }
+
 .phone{
-    transform: translateX(-60px);
+    transform: translateX(-5px);
     margin-top: 30px;
 }
 .google{
-    transform: translateX(-60px);
+    transform: translateX(-30px);
     margin-left: 60px;
 }
 
+.link{
+    margin-left: 25px;
+}
+.gif{
+    width: 250px;
+    height: 150px;
+    transform: translate(-250px);
+    
+}
 @media(max-width:640px){
-    .container{
-        width: 600px;
-        height: 250px;
-        margin-left: 190px;
-        margin-top: 0px;
+    .home .container{
+        transform: translateX(-50px);
     }
 
     .link{
-        margin-left: -70px;
+        margin-left: 20px;
     }
     .phone{
         transform: translateX(-20px);
@@ -73,5 +71,13 @@ button{
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .google{
+        margin-left: 30px;
+    }
+    .gif{
+        width: 200px;
+        height: 100px;
+        transform: translateX(-50px);
     }
 }

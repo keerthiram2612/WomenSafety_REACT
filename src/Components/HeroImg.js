@@ -13,6 +13,9 @@ export default function HeroImg() {
        <img className='women-pic'src={WomenPic} alt='WomenPic'/>
       </div>
       <div className='container'>
+        <div className='gif-sec'>
+           <img className="gif" src ="https://cdn.pixabay.com/animation/2023/03/31/04/15/04-15-05-521_512.gif"/>
+        </div>
       <h1 className='home-h1'>WO-SAFE</h1><br/>
       <p className='home-p'>This application tracks and gives the suggestion for the people which is the right 
         place and gives the notification in critical situation by the current location.
