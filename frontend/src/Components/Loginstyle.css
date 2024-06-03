@@ -1,0 +1,25 @@
+.login-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .form{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    
+}
+.login-values{
+    transform: translateY(50%);
+}
+input{
+    padding: 10px;
+}
+.email{
+    margin-bottom: 5px;
+    
+}
+
