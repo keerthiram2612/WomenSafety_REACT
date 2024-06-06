@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../Components/Loginstyle.css"
 function Login() {
+  const[email,setEmail]=useState('')
+  const[password,setPassword]=useState('')
   return (
     <div className='login-page'>
       <div>
@@ -9,11 +11,13 @@ function Login() {
            <div className='login-values'>
             <div className='email'>
                 <label htmlFor='email'>Email</label>
-                <input className="email"type='email' placeholder='Enter Email'/>
+                <input className="email"type='email' placeholder='Enter Email'
+                onChange={e=>setEmail(e.target.value)}/>
             </div>
             <div>
                 <label htmlFor='password'>Password</label>
-                <input type='password' placeholder='Enter Password'/>
+                <input type='password' placeholder='Enter Password'
+                 onChange={e=>setPassword(e.target.value)}/>
             </div>
             <button>Login</button>
             </div>
