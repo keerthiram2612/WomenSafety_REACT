@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../Components/Loginstyle.css"
 import axios from "axios"
+import { Link } from 'react-router-dom'
 
 function Login() {
   const[email,setEmail]=useState('')
@@ -29,7 +30,7 @@ function Login() {
                 <input type='password' placeholder='Enter Password'
                  onChange={e=>setPassword(e.target.value)}/>
             </div>
-            <button>Login</button>
+            <Link to ="/"><button>Login</button></Link>
             </div>
         </form>
       </div>
